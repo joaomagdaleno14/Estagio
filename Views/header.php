@@ -4,17 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Curso de Bootstrap</title>
+    <title>Magdaleno Store</title>
     <link rel="stylesheet" href="./node_modules/bootstrap/compiler/bootstrap.css">
     <link rel="stylesheet" href="./node_modules/font-awesome/css/font-awesome.css">
     <link rel="stylesheet" href="./style/css/style.css">
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="../img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./img/favicon.ico" type="image/x-icon">
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-gradient-primary">
         <div class="container">
-            <a class="navbar-brand h1 mb-0" href="#">Web Designer</a>
+            <a class="navbar-brand h1 mb-0" href="#">Magdaleno Store</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
                 <span class="navbar-toggler-icon"></span>
             </button>
