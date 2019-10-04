@@ -1,11 +1,11 @@
-<?
+<?php
     include "Views/header.php";
 ?>
     
-<?
-    include "Views/login.php";
+<?php
+    include "Views/home.php";
 ?>
 
-<?
+<?php
     include "Views/footer.php";
 ?>
