@@ -1,27 +1,26 @@
 <div id="carouselSite" class="carousel slide" data-ride="carousel">
-<ol class="carousel-indicators">
-    <li data-target="#carouselSite" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselSite" data-slide-to="1"></li>
-    <li data-target="#carouselSite" data-slide-to="2"></li>
-</ol>
-
+    <ol class="carousel-indicators">
+        <li data-target="#carouselSite" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselSite" data-slide-to="1"></li>
+        <li data-target="#carouselSite" data-slide-to="2"></li>
+    </ol>
 <div class="carousel-inner">
     <div class="carousel-item active">
-        <img class="img-fluid d-block" src="img/slide-01.jpg">
+        <img class="img-fluid d-block" src="./style/img/slide-01.jpg">
         <div class="carousel-caption d-none d-md-block">
             <h1>Interstellar 2014</h1>
             <p class="lead">Love is the one thing that transends dimentisons of space and time</p>
         </div>
     </div>
     <div class="carousel-item">
-        <img class="img-fluid d-block" src="img/slide-02.jpg">
+        <img class="img-fluid d-block" src="./style/img/slide-02.jpg">
         <div class="carousel-caption d-none d-md-block">
             <h1>Interstellar 2014</h1>
             <p class="lead">We used to look up at the sky and wonder at our place in the stars, now we just look down and worry about our place in the dirt.</p>
         </div>
     </div>
     <div class="carousel-item">
-        <img class="img-fluid d-block" src="img/slide-03.jpg">
+        <img class="img-fluid d-block" src="./style/img/slide-03.jpg">
         <div class="carousel-caption d-none d-md-block">
             <h1>Interstellar 2014</h1>
             <p class="lead">Mankind was born on Earth ... it was never meant to die here.</p>
@@ -39,68 +38,55 @@
 </a>
 </div>
 
-<div class="row justify-content-sm-center my-5">
-    <div class="col-sm-3 col-md-3">
-        <div class="card mb-5">
-            <img class="card-img-top" src="img/100x100.gif" alt="">
-            <div class="card-body">
-                <h4 class="card-title">Lorem ipsum</h4>
-                <h6 class="card-subtitle mb-2 text-muted">Aliquam diam lorem</h6>
-                <p class="card-text"> ipsum dolor sit amet, consectetur adipiscing elit.</p>
+<div class="container justify-content-sm-center">
+    <div class="row my-5">
+        <div class="col-sm-4 col-md-4">
+            <div class="card mb-5">
+                <img class="card-img-top" src="./style/img/100x100.gif" alt="">
+                <div class="card-body">
+                    <h4 class="card-title">Lorem ipsum</h4>
+                    <h6 class="card-subtitle mb-2 text-muted">Aliquam diam lorem</h6>
+                    <p class="card-text"> ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="card-body">
+                    <a href="#" class="card-link">malesuad</a>
+                    <a href="#" class="card-link"> morbi </a>
+                </div>
             </div>
-            <div class="card-body">
-                <a href="#" class="card-link">malesuad</a>
-                <a href="#" class="card-link"> morbi </a>
+        </div>
+        <div class="col-sm-4 col-md-4">
+            <div class="card mb-5">
+                <img class="card-img-top" src="./style/img/100x100.gif" alt="">
+                <div class="card-body">
+                    <h4 class="card-title">Lorem ipsum</h4>
+                    <h6 class="card-subtitle mb-2 text-muted">Aliquam diam lorem</h6>
+                    <p class="card-text"> ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="card-body">
+                    <a href="#" class="card-link">malesuad</a>
+                    <a href="#" class="card-link"> morbi </a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4 col-md-4">
+            <div class="card mb-5">
+                <img class="card-img-top" src="./style/img/100x100.gif" alt="">
+                <div class="card-body">
+                    <h4 class="card-title">Lorem ipsum</h4>
+                    <h6 class="card-subtitle mb-2 text-muted">Aliquam diam lorem</h6>
+                    <p class="card-text"> ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="card-body">
+                    <a href="#" class="card-link" data-toggle="modal" data-target="#siteModal">malesuad</a>
+                    <a href="#" class="card-link"> morbi </a>
+                </div>
             </div>
         </div>
     </div>
-    <div class="col-sm-3 col-md-3">
-        <div class="card mb-5">
-            <img class="card-img-top" src="img/100x100.gif" alt="">
-            <div class="card-body">
-                <h4 class="card-title">Lorem ipsum</h4>
-                <h6 class="card-subtitle mb-2 text-muted">Aliquam diam lorem</h6>
-                <p class="card-text"> ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </div>
-            <div class="card-body">
-                <a href="#" class="card-link">malesuad</a>
-                <a href="#" class="card-link"> morbi </a>
-            </div>
-        </div>
-    </div>
-    <div class="col-sm-3 col-md-3">
-        <div class="card mb-5">
-            <img class="card-img-top" src="img/100x100.gif" alt="">
-            <div class="card-body">
-                <h4 class="card-title">Lorem ipsum</h4>
-                <h6 class="card-subtitle mb-2 text-muted">Aliquam diam lorem</h6>
-                <p class="card-text"> ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </div>
-            <div class="card-body">
-                <a href="#" class="card-link" data-toggle="modal" data-target="#siteModal">malesuad</a>
-                <a href="#" class="card-link"> morbi </a>
-            </div>
-        </div>
-    </div>
-    <div class="col-sm-3 col-md-3">
-        <div class="card mb-5">
-            <img class="card-img-top" src="img/100x100.gif" alt="">
-            <div class="card-body">
-                <h4 class="card-title">Lorem ipsum</h4>
-                <h6 class="card-subtitle mb-2 text-muted">Aliquam diam lorem</h6>
-                <p class="card-text"> ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </div>
-            <div class="card-body">
-                <a href="#" class="card-link" data-toggle="modal" data-target="#siteModal">malesuad</a>
-                <a href="#" class="card-link"> morbi </a>
-            </div>
-        </div>
-    </div>
-</div>
 </div>
 
 <!--- Modal --->
-<div class="modal fade" id="siteModal" tabindex="-1" role="dialog">
+<!-- <div class="modal fade" id="siteModal" tabindex="-1" role="dialog">
 <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
         <div class="modal-header">
@@ -128,4 +114,4 @@
         </div>
     </div>
 </div>
-</div>
+</div> -->

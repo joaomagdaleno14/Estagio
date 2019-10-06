@@ -99,12 +99,14 @@
         </div>
     </div>
 </body>
-<script src="node_modules/jquery/dist/jquery.js"></script>
-            <script src="node_modules/popper.js/dist/umd/popper.js"></script>
-            <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
-            <script>
-            $(function(){
-                $('[data-toggle="popover"]').popover()
-            })
-            </script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js?render=SG.6LfrbK8UAAAAALXauyoYZaGSzSDYMfXKlVzcZatC"></script>
+    <script src="./style/js/Javascript.js"></script>
+    <script>
+    $(function(){
+        $('[data-toggle="popover"]').popover()
+    })
+    </script>
 </html>
