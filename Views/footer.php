@@ -32,7 +32,7 @@
                             <label for="inputEst">Seu Estado</label>
                             <select class="form-control" id="inputEst">
                                 <option selected>Selecione...</option>
-                                <option value="">...</option>
+                                <option value="AC">AC</option>
                                 <option value="">...</option>
                                 <option value="">...</option>
                                 <option value="">...</option>
