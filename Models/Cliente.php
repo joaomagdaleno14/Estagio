@@ -7,6 +7,7 @@ class Cliente {
     private $UltNome;
     private $Cpf;
     private $Dt_Nsc;
+    private $Telefone;
     private $Endereco;
     private $Estado;
     private $Cidade;
@@ -15,7 +16,6 @@ class Cliente {
     private $Senha;
     private $SenhaConf;
     private $SenhaHash;
-    private $Telefone;
 
 
     public function getClienteId() {
@@ -32,6 +32,9 @@ class Cliente {
     }
     public function getDt_Nsc() {
         return $this->Dt_Nsc;
+    }
+    public function getTelefone() {
+        return $this->Telefone;
     }
     public function getEndereco() {
         return $this->Endereco;
@@ -57,9 +60,6 @@ class Cliente {
     public function getSenhaHash() {
         return $this->SenhaHash;
     }
-    public function getTelefone() {
-        return $this->Telefone;
-    }
 
 
 
@@ -77,6 +77,9 @@ class Cliente {
     }
     public function setDt_Nsc($Dt_Nsc) {
         $this->Dt_Nsc = $Dt_Nsc;
+    }
+    public function setTelefone($Telefone) {
+        $this->Telefone = $Telefone;
     }
     public function setEndereco($Endereco) {
         $this->Endereco = $Endereco;
@@ -101,9 +104,6 @@ class Cliente {
     }
     public function setSenhaHash($SenhaHash) {
         $this->SenhaHash = $SenhaHash;
-    }
-    public function setTelefone($Telefone) {
-        $this->Telefone = $Telefone;
     }
 
 

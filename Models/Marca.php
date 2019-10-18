@@ -4,7 +4,7 @@ class Marca{
 
     private $MarcaId;
     private $Nome;
-    private $Descricao;
+    private $DescMarca;
 
     public function getMarcaId() {
         return $this->MarcaId;
@@ -12,8 +12,8 @@ class Marca{
     public function getNome() {
         return $this->Nome;
     }
-    public function getDescricao() {
-        return $this->Descricao;
+    public function getDescMarca() {
+        return $this->DescMarca;
     }
 
     public function setMarcaId($MarcaId) {
@@ -22,8 +22,8 @@ class Marca{
     public function setNome($Nome) {
         $this->Nome = $Nome;
     }
-    public function setDescricao($Descricao) {
-        $this->Descricao = $Descricao;
+    public function setDescMarca($DescMarca) {
+        $this->DescMarca = $DescMarca;
     }
 }
 ?>
